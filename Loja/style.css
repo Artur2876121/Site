@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff; /* Cor de fundo suave */
+  color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.site-header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #4682b4; /* Cor de fundo mais intensa */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.site-header h1 {
+  color: #fff;
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+.navi {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Espaçamento maior entre os links */
+  margin-top: 20px;
+}
+
+.navi a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #e0ffff;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease; /* Animação suave */
+}
+
+.navi a:hover {
+  color: #ff6347; /* Cor de destaque ao passar o mouse */
+  transform: scale(1.1); /* Efeito de aumento ao passar o mouse */
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-bar {
+  max-width: 1200px; /* Limita a largura para um design mais centralizado */
+  margin: 0 auto;
+  padding: 20px;
+}

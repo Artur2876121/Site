@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.site-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #83c1f4; /* Cor de fundo opcional */
+}
+
+/* Centraliza a navegação */
+.navi {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espaçamento entre os links */
+  margin-top: 10px;
+}
+
+.navi a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e0ffff;
+  font-weight: bold;
+}
